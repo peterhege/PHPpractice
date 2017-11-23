@@ -46,6 +46,7 @@
                         <li><a href="<?=PATH;?>/code/get_leaf_count">Get Leaf Count</a></li>
                     </ul>
                 </li>
+                <li><a href="<?=PATH;?>/code/is_prim">Prim</a></li>
             </ul>
         </div>
     </nav>

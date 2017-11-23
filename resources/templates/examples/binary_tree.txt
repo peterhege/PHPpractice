@@ -3,8 +3,8 @@ $bTree = new tree();
 $numbers = 20;
 
 for($i=0;$i<$numbers ;$i++){
-$rand = mt_rand(0, 99);
-$bTree->insert($rand);
+    $rand = mt_rand(0, 99);
+    $bTree->insert($rand);
 }
 
 $bTree->writeTree($bTree->root);

@@ -46,6 +46,7 @@ body{
 
 .my-form textarea{
     min-height: 250px;
+    font-family: Consolas, Lucida Console, monospace;
 }
 
 /*Binary tree*/

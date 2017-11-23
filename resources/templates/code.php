@@ -15,7 +15,7 @@ include 'codes/'.$file.'.php';
     <h1>Test</h1>
     <form action="" method="post" class="my-form">
         <div class="form-group">
-            <textarea name="code" class="form-control" id="exampleTextarea" rows="3"><?php
+            <textarea name="code" class="form-control" id="exampleTextarea" rows="3" spellcheck="false"><?php
                 if(isset($_POST['code']))
                     echo $_POST['code'];
                 else

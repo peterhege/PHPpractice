@@ -1,0 +1,6 @@
+$numbers = 20;
+
+for($i=0;$i<$numbers ;$i++){
+    $rand = mt_rand(0, 99);
+    echo $rand.': '.(is_prim($rand) ? 'true' : 'false').'<br>';
+}
