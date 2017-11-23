@@ -27,7 +27,7 @@ function renderLayoutWithContentFile($contentFile, $variables = array())
 
     echo "\t</div>\n";
 
-    require_once(TEMPLATES_PATH . "/rightPanel.php");
+    //require_once(TEMPLATES_PATH . "/rightPanel.php");
 
     echo "</div>\n";
 

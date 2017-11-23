@@ -1,8 +1,4 @@
 <!-- Homepage content -->
-<h2>Home Page</h2>
-
-<?php
-
-    echo "Hello ".$name."!";
-
-?>
+<div class="phpImage">
+    <img src="<?=PATH;?>/src/img/content/php.svg">
+</div>

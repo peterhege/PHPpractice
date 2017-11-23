@@ -13,16 +13,31 @@
     <!-- Font Awesome -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-    <title>Example Page</title>
+    <link href="<?=PATH;?>/src/css/style.css" rel="stylesheet">
+
+    <title>PHP Practice</title>
 </head>
 
 <body>
 <div id="header">
-    <h1>Simple Site</h1>
-    <ul class="nav global">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Articles</a></li>
-        <li><a href="#">Portfolio</a></li>
-    </ul>
-
+    <nav class="navbar navbar-inverse" style="border-radius: 0;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="<?=PATH;?>/home">PHP Practice</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="<?=PATH;?>/home">Home</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Factorial
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="<?=PATH;?>/code/factorial-loop">Loop</a></li>
+                        <li><a href="<?=PATH;?>/code/factorial-recursion">Recursion</a></li>
+                        <li><a href="<?=PATH;?>/code/factorial-closure">Closure</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Page 3</a></li>
+            </ul>
+        </div>
+    </nav>
 </div>

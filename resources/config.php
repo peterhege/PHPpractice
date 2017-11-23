@@ -17,8 +17,8 @@ or define("LIBRARY_PATH", realpath(dirname(__FILE__) . '/library'));
 defined("TEMPLATES_PATH")
 or define("TEMPLATES_PATH", realpath(dirname(__FILE__) . '/templates'));
 
-defined("SRC_PATH")
-or define("SRC_PATH", realpath(dirname(__FILE__) . '/../src'));
+defined("PATH")
+or define("PATH", '/phppractice');
 
 /*
     Error reporting.
