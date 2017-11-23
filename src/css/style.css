@@ -43,3 +43,49 @@ body{
     width: 70%;
     margin: 0 auto;
 }
+
+.my-form textarea{
+    min-height: 250px;
+}
+
+/*Binary tree*/
+#tree{
+    overflow:auto;
+    background: #222;
+    padding: 50px 0;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.7) inset;
+}
+
+.tree{
+    padding: 20px;
+}
+
+.tree h5{
+    text-align: center !important;
+    background-repeat:no-repeat !important;
+    background-position:center center !important;
+    background-size:100% 100%, auto !important;
+    padding:20px 0 0 !important;
+    margin:0 !important;
+}
+
+.tree h5 > span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    color: white;
+    background-color: #007bff;
+    line-height: 30px;
+    text-align: center;
+}
+
+.tree h5.leftChild{
+    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 100 100'><path d='M100 1 L99 0 L49 49 L50 50' fill='white' /></svg>");
+}
+
+.tree h5.rightChild{
+    background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 100 100'><path d='M1 0 L0 1 L49 50 L50 49' fill='white' /></svg>");
+}

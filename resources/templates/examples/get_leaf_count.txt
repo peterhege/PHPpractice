@@ -1,0 +1,12 @@
+$bTree = new tree();
+$bTree->insert(120);
+$bTree->insert(1489);
+$bTree->insert(6);
+$bTree->insert(871);
+$bTree->insert(64);
+$bTree->insert(0);
+$bTree->insert(870);
+
+$bTree->writeTree($bTree->root);
+
+echo 'Leafs Count: '.get_leaf_count($bTree->root);
