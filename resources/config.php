@@ -28,7 +28,4 @@ error_reporting(E_ALL|E_STRCT);
 
 defined("DEBUG")
 or define("DEBUG",true);
-
-
-
 ?>

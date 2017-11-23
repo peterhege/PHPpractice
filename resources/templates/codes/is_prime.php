@@ -1,5 +1,5 @@
 <?php
-    function is_prim($num) {
+    function is_prime($num) {
         if($num < 2)
             return false;
         if($num % 2 == 0 && $num != 2)

@@ -28,7 +28,7 @@
                 <a class="navbar-brand" href="<?=PATH;?>/home">PHP Practice</a>
             </div>
             <ul class="nav navbar-nav">
-                <li class="active"><a href="<?=PATH;?>/home">Home</a></li>
+                <li><a href="<?=PATH;?>/home">Home</a></li>
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Factorial
                         <span class="caret"></span></a>
@@ -46,7 +46,7 @@
                         <li><a href="<?=PATH;?>/code/get_leaf_count">Get Leaf Count</a></li>
                     </ul>
                 </li>
-                <li><a href="<?=PATH;?>/code/is_prim">Prim</a></li>
+                <li><a href="<?=PATH;?>/code/is_prime">Prime</a></li>
             </ul>
         </div>
     </nav>
