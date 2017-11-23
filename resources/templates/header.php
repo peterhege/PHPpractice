@@ -43,7 +43,7 @@
                         <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="<?=PATH;?>/code/binary_tree">Binary Tree</a></li>
-                        <li><a href="<?=PATH;?>/code/get_leaf_count">Get Leaf Count</a></li>
+                        <li><a href="<?=PATH;?>/code/binary_tree_get_leaf_count">Get Leaf Count</a></li>
                     </ul>
                 </li>
                 <li><a href="<?=PATH;?>/code/is_prime">Prime</a></li>
