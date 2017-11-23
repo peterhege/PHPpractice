@@ -1,5 +1,5 @@
 body{
-
+    margin-bottom: 60px;
 }
 
 #header{
@@ -19,11 +19,22 @@ body{
     background-color: #f5f5f5;
 }
 
-.phpImage img{
+.php-image img{
     width: 40%;
 }
 
 .footer-right{
     float: right;
     font-size: 30px;
+}
+
+.code-container{
+    text-align: left;
+}
+
+.code-container{
+    padding: 1em;
+    background-color: #f5f5f5;
+    width: 70%;
+    margin: 0 auto;
 }

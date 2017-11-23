@@ -15,6 +15,8 @@
 
     <link href="<?=PATH;?>/src/css/style.css" rel="stylesheet">
 
+    <link rel="icon" href="<?=PATH;?>/src/img/layout/php.ico" type="image/x-icon" />
+
     <title>PHP Practice</title>
 </head>
 
@@ -31,9 +33,9 @@
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Factorial
                         <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="<?=PATH;?>/code/factorial-loop">Loop</a></li>
-                        <li><a href="<?=PATH;?>/code/factorial-recursion">Recursion</a></li>
-                        <li><a href="<?=PATH;?>/code/factorial-closure">Closure</a></li>
+                        <li><a href="<?=PATH;?>/code/factorial_loop">Loop</a></li>
+                        <li><a href="<?=PATH;?>/code/factorial_recursion">Recursion</a></li>
+                        <li><a href="<?=PATH;?>/code/factorial_closure">Closure</a></li>
                     </ul>
                 </li>
                 <li><a href="#">Page 3</a></li>
