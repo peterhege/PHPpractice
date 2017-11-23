@@ -1,8 +1,8 @@
 <?php
 $file = $segments[1];
-$code = file_get_contents(TEMPLATES_PATH.'/'.$file.'.php');
+$code = file_get_contents(TEMPLATES_PATH.'/codes/'.$file.'.php');
 $test_code = file_get_contents(TEMPLATES_PATH.'/examples/'.$file.'.txt');
-include $file.'.php';
+include 'codes/'.$file.'.php';
 ?>
 
 <div class="container">
