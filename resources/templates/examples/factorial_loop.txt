@@ -1,0 +1,1 @@
+echo factorial_loop(5);
