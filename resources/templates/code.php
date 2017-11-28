@@ -40,7 +40,7 @@
         });
     </script>
 <?php
-}
-else
-    require_once(TEMPLATES_PATH . "/error.php");
+    }
+    else
+        require_once(TEMPLATES_PATH . "/error.php");
 ?>

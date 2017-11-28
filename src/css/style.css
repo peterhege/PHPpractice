@@ -2,6 +2,15 @@ body{
     margin-bottom: 80px;
 }
 
+p.error{
+    color: red;
+}
+
+h1.error-icon{
+    font-size: 6em;
+    color: darkred;
+}
+
 #header{
 
 }
