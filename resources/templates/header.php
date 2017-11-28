@@ -46,6 +46,13 @@
                         <li><a href="<?=PATH;?>/code/binary_tree_get_leaf_count">Get Leaf Count</a></li>
                     </ul>
                 </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Sort
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="<?=PATH;?>/code/quick_sort">Quick Sort</a></li>
+                    </ul>
+                </li>
                 <li><a href="<?=PATH;?>/code/is_prime">Prime</a></li>
             </ul>
         </div>
