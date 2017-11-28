@@ -1,1 +1,2 @@
-echo "5!=".factorial_loop(5);
+$num = 6;
+echo $num."!=".factorial_loop($num);
