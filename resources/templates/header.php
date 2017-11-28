@@ -54,7 +54,14 @@
                         <li><a href="<?=PATH;?>/code/bubble_sort">Bubble Sort</a></li>
                     </ul>
                 </li>
-                <li><a href="<?=PATH;?>/code/is_prime">Prime</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Other
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="<?=PATH;?>/code/is_prime">Prime</a></li>
+                        <li><a href="<?=PATH;?>/code/is_repeat">Is Repeat</a></li>
+                    </ul>
+                </li>
             </ul>
         </div>
     </nav>
