@@ -1,0 +1,3 @@
+$array = array(1,3,2,1);
+echo "Count of movements: ".bubble_sort($array)."<br>";
+print_array($array);

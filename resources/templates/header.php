@@ -51,6 +51,7 @@
                         <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="<?=PATH;?>/code/quick_sort">Quick Sort</a></li>
+                        <li><a href="<?=PATH;?>/code/bubble_sort">Bubble Sort</a></li>
                     </ul>
                 </li>
                 <li><a href="<?=PATH;?>/code/is_prime">Prime</a></li>

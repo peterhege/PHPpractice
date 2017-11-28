@@ -1,6 +1,6 @@
 $array = array(5,6,4,9,100,10,11);
 
-quickSort($array,0,count($array)-1);
+quickSort($array);
 
 echo "<pre>";
 var_dump($array);
