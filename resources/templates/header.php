@@ -58,7 +58,7 @@
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Other
                         <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="<?=PATH;?>/code/is_prime">Prime</a></li>
+                        <li><a href="<?=PATH;?>/code/is_prime">Is Prime</a></li>
                         <li><a href="<?=PATH;?>/code/is_repeat">Is Repeat</a></li>
                     </ul>
                 </li>
