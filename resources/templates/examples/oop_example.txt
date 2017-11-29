@@ -1,0 +1,5 @@
+$fruit = new fruit("green");
+echo $fruit."<br>";
+
+$apple = new apple();
+echo $apple."<br>";

@@ -60,6 +60,7 @@
                     <ul class="dropdown-menu">
                         <li><a href="<?=PATH;?>/code/is_prime">Is Prime</a></li>
                         <li><a href="<?=PATH;?>/code/is_repeat">Is Repeat</a></li>
+                        <li><a href="<?=PATH;?>/code/oop_example">OPP example</a></li>
                     </ul>
                 </li>
             </ul>
